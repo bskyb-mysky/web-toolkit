@@ -165,8 +165,6 @@ task :deploy do
   if !version_is_release_candidate?
     pushToAmazonS3LatestDir
     tagBuild
-    buildDistributionFiles
+    updateGHPages
   end
-  updateGHPages #todo - move this to non-rc versions only (after test)
-
 end
