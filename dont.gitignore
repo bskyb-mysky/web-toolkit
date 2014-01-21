@@ -13,8 +13,5 @@ dist/scripts/build.txt
 vendor
 .bundle
 
-#allow _site/dist/fonts to be in git as they cant be built on circle
+#allow dist in gh-pages
 _site
-/dist/images
-/dist/scripts
-/dist/stylesheets
