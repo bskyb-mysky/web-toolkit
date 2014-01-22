@@ -12,6 +12,3 @@ grunt/fonts/min
 dist/scripts/build.txt
 vendor
 .bundle
-
-#allow dist in gh-pages
-_site
